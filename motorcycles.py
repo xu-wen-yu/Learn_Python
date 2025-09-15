@@ -16,6 +16,7 @@ print(motorcycles)
 
 del motorcycles[0]
 print(motorcycles)
+#del + number
 
 popped_motorcycle = motorcycles.pop()
 print(motorcycles)
@@ -36,3 +37,5 @@ print(f"\nA {too_expensive.title()} is too expensive for me.")
 motorcycles = ['yamaha','yamaha','yamaha','yamaha']
 motorcycles.remove('yamaha')
 print(motorcycles)
+#remove for once
+#remove + name
